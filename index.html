@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>CRONÔMETRO</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" lang="javascript" src="script.js"></script>
+</head>
+
+<body>
+<div id="contador">
+		<div class="relogio" id="Horas">00</div>
+		<div class="relogio" id="Minutos">:00</div>
+		<div class="relogio" id="Segundos">:00</div>
+		<input type="button" class="botao" id="inicio" value="Start &#9658;" onclick="inicio();">
+		<input type="button" class="botao" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+		<input type="button" class="botao" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+		<input type="button" class="botao" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+	</div>
+	
+</body>
+</html>
